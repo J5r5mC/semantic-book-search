@@ -1,6 +1,5 @@
 book.csv
 book_embeddings.npy
-booksummaries.txt
 __pycache__/
 .ipynb_checkpoints/
 .venv/
