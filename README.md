@@ -23,7 +23,7 @@ Type a query like *"a story about war and redemption"* or *"dystopian society co
 
 ---
 
-## 🧠 How It Works
+## How It Works
 
 1. **Data preparation** — `booksummaries.txt` is parsed and converted to a structured CSV (`book.csv`) with columns: `Title` and `Summary`.
 2. **Exploration & prototyping** — `code.ipynb` covers the full pipeline: data preparation, embedding generation, FAISS index construction and semantic search tests. It serves as the experimental ground that led to the final app.
@@ -33,7 +33,7 @@ Type a query like *"a story about war and redemption"* or *"dystopian society co
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### 1. Clone the repository
 
@@ -76,7 +76,7 @@ Then open [http://localhost:8501](http://localhost:8501) in your browser.
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 | Component | Library |
 |---|---|
@@ -87,7 +87,7 @@ Then open [http://localhost:8501](http://localhost:8501) in your browser.
 
 ---
 
-## 📊 Dataset
+## Dataset
 
 This project uses the **CMU Book Summary Dataset**, which contains plot summaries for 16,559 books extracted from Wikipedia, along with metadata (author, publication date, genres).
 
