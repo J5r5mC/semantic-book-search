@@ -18,6 +18,7 @@ def load_data_and_embeddings():
 df, vectors = load_data_and_embeddings()
 model = load_model()
 
+# Build FAISS index (inner product on normalized vectors = cosine similarity)
 index = faiss.IndexFlatIP(vectors.shape[1])
 index.add(vectors)
 
